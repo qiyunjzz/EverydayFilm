@@ -1,9 +1,11 @@
-# EverydayFilm
-天天看播放器源码 (逆向快播、西瓜、吉吉…)
+#天天看高清播放器
 
-开发公司---抚州天天看网络科技有限公司
-更改公司---上海申豆网络科技有限公司
-再更改公司---上海相约（相悦）网络科技有限公司
+未经相约公司允许不得商用
 
 
-未经公司允许，请勿商用。 Author：zhou Web: http://www.shendou123.com/
+company:http://www.shendou123.com/
+
+
+web:http://www.tiantiankan123.com/
+
+

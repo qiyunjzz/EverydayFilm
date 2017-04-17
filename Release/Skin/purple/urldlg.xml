@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,20"  roundcorner="5,5" showdirty="false" >
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <VerticalLayout name="MainContainer" bkcolor="#FFFEFDFC" bordercolor="#FF5A1C6F" bordersize="2">
+
+    <HorizontalLayout name="URLcaption" maxheight="26" bkimage="file='menu.png' source='0,405,10,431'">
+      <HorizontalLayout name="URLwndname">
+        <Text name="URLwndtext" mouse="false" padding="15,5,0,0" text="打开URL" textcolor="#FFFFFFFF" font="1"/>
+      </HorizontalLayout>
+      <Button name="URLbtnClose" width="34" normalimage="file='menu.png' source='10,405,44,431'" hotimage="file='menu.png' source='44,405,78,431'" pushedimage="file='menu.png' source='78,405,112,431'"/>
+    </HorizontalLayout>
+
+    <Label name="URLt8" padding="20,0,0,0" height="30" text="输入网络上你要播放的媒体文件URL或路径:"/>
+
+    <HorizontalLayout name="URLeditctner" maxheight="25">
+      <Edit name="URLathedit" padding="20,0,0,0" width="350"/>
+      <!--<Button name="URLopenfile" text="打开文件" padding="5,0,0,0" maxwidth="120" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>-->
+    </HorizontalLayout>
+
+
+    <Label name="URLt9" padding="20,10,0,0" height="18" text="协议支持：qvod://协议下的rmvb文件;"/>
+    <Label name="URLt10" padding="20,0,0,0" height="18" text="例如： qvod://1166668964|3009FD527832A8B5E8EDC45D48CFBEF74|1.rmvb|"/>
+
+    <HorizontalLayout name="RULbottom" padding="2,16,2,0" height="35" maxheight="35" bkcolor="#00E5E5E5" bkcolor2="#FFCFCFCF">
+      <Button name="URLsure" padding="300,8,0,5" width="60" text="确认" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+      <Button name="URLgiveup" padding="15,8,0,5" width="60" text="取消" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+    </HorizontalLayout>
+
+  </VerticalLayout>
+</Window>

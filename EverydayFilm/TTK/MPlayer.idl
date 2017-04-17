@@ -1,0 +1,120 @@
+// MPlayer.idl : MPlayer 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(MPlayer.tlb)和封送处理代码。
+
+#include "olectl.h"
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(98D2729B-D43C-4426-B3B5-D99CE25FE09D),
+	dual,
+	nonextensible,
+	helpstring("IMMPlayer 接口"),
+	pointer_default(unique)
+]
+interface IMMPlayer : IDispatch{
+	[propput, bindable, requestedit, id(DISPID_BORDERSTYLE)]
+	HRESULT BorderStyle([in]long style);
+	[propget, bindable, requestedit, id(DISPID_BORDERSTYLE)]
+	HRESULT BorderStyle([out, retval]long* pstyle);
+	[propput, bindable, requestedit, id(DISPID_APPEARANCE)]
+	HRESULT Appearance([in]short nAppearance);
+	[propget, bindable, requestedit, id(DISPID_APPEARANCE)]
+	HRESULT Appearance([out, retval]short* pnAppearance);
+	[propget, id(1), helpstring("属性 FullScreen")] HRESULT FullScreen([out, retval] LONG* pVal);
+	[propput, id(1), helpstring("属性 FullScreen")] HRESULT FullScreen([in] LONG newVal);
+	[propget, id(2), helpstring("属性 URL")] HRESULT URL([out, retval] BSTR* pVal);
+	[propput, id(2), helpstring("属性 URL")] HRESULT URL([in] BSTR newVal);
+	[id(3), helpstring("方法Play")] HRESULT Play(void);
+	[id(4), helpstring("方法Pause")] HRESULT Pause(void);
+	[id(5), helpstring("方法Stop")] HRESULT Stop(void);
+	[propget, id(6), helpstring("属性 CurrentPosition")] HRESULT CurrentPosition([out, retval] LONG* pVal);
+	[propput, id(6), helpstring("属性 CurrentPosition")] HRESULT CurrentPosition([in] LONG newVal);
+	[propget, id(7), helpstring("属性 Volume")] HRESULT Volume([out, retval] long* pVal);
+	[propput, id(7), helpstring("属性 Volume")] HRESULT Volume([in] long newVal);
+	[propget, id(8), helpstring("属性 VideoFrame")] HRESULT VideoFrame([out, retval] LONG* pVal);
+	[propput, id(8), helpstring("属性 VideoFrame")] HRESULT VideoFrame([in] LONG newVal);
+	[propget, id(9), helpstring("属性 RendererType")] HRESULT RendererType([out, retval] LONG* pVal);
+	[propput, id(9), helpstring("属性 RendererType")] HRESULT RendererType([in] LONG newVal);
+	[propget, id(10), helpstring("属性 Balance")] HRESULT Balance([out, retval] LONG* pVal);
+	[propput, id(10), helpstring("属性 Balance")] HRESULT Balance([in] LONG newVal);
+	[id(11), helpstring("方法get_Duration")] HRESULT get_Duration([out,retval] LONG* length);
+	[propget, id(12), helpstring("属性 Mute")] HRESULT Mute([out, retval] LONG* pVal);
+	[propput, id(12), helpstring("属性 Mute")] HRESULT Mute([in] LONG newVal);
+	[id(13), helpstring("方法get_State")] HRESULT get_State([out,retval] LONG* state);
+	[id(14), helpstring("方法put_id")] HRESULT put_id([in] CHAR* id);
+	[id(15), helpstring("方法put_net")] HRESULT put_net([in] CHAR* inNet);
+	[propget, id(16), helpstring("属性 FileLength")] HRESULT FileLength([out, retval] LONGLONG* pVal);
+	[propput, id(16), helpstring("属性 FileLength")] HRESULT FileLength([in] LONGLONG newVal);
+	[id(17), helpstring("方法ShowAd")] HRESULT ShowAd(void);
+	[id(18), helpstring("方法HideAd")] HRESULT HideAd(void);
+	[id(19), helpstring("方法CreateNetSource")] HRESULT CreateNetSource(void);
+	[id(20), helpstring("方法CanConnect")] HRESULT CanConnect([out,retval] LONG* bCanConn);
+	[propget, id(21), helpstring("属性 RendererModule")] HRESULT RendererModule([out, retval] SHORT* pVal);
+	[propput, id(21), helpstring("属性 RendererModule")] HRESULT RendererModule([in] SHORT newVal);
+	[propget, id(22), helpstring("属性 hue")] HRESULT hue([out, retval] int* pVal);
+	[propput, id(22), helpstring("属性 hue")] HRESULT hue([in] int newVal);
+	[propget, id(23), helpstring("属性 gama")] HRESULT gama([out, retval] int* pVal);
+	[propput, id(23), helpstring("属性 gama")] HRESULT gama([in] int newVal);
+	[propget, id(24), helpstring("属性 contrast")] HRESULT contrast([out, retval] int* pVal);
+	[propput, id(24), helpstring("属性 contrast")] HRESULT contrast([in] int newVal);
+	[propget, id(25), helpstring("属性 lightness")] HRESULT lightness([out, retval] int* pVal);
+	[propput, id(25), helpstring("属性 lightness")] HRESULT lightness([in] int newVal);
+	[propget, id(26), helpstring("属性 saturation")] HRESULT saturation([out, retval] int* pVal);
+	[propput, id(26), helpstring("属性 saturation")] HRESULT saturation([in] int newVal);
+	[id(27), helpstring("方法GetSourceSize")] HRESULT GetSourceSize(LONG* cx, LONG* cy);
+	[id(28), helpstring("方法GetHWND")] HRESULT GetHWND(LONG *hWnd);
+	[propget, id(29), helpstring("属性 bMini")] HRESULT bMini([out, retval] LONG* pVal);
+	[propput, id(29), helpstring("属性 bMini")] HRESULT bMini([in] LONG newVal);
+	[propput, id(30), helpstring("方法 SetMax")] HRESULT Max([in] LONG newVal);
+	[propput, id(31), helpstring("方法 SetDownNO")] HRESULT DownNO([in] LONG newVal);
+	[propput, id(32), helpstring("方法 SetPlayNO")] HRESULT PlayNO([in] LONG newVal);
+	[propput, id(33), helpstring("方法 SetTimeStr")] HRESULT TimeStr([in] BSTR newVal);
+	[propput, id(34), helpstring("方法 SetEnable")] HRESULT Enable([in] LONG newVal);
+	[propget, id(35), helpstring("属性 tsuyoku")] HRESULT tsuyoku([out, retval] BOOL* pVal);
+	[propput, id(35), helpstring("属性 tsuyoku")] HRESULT tsuyoku([in] BOOL newVal);
+	[id(36), helpstring("方法GetPic")] HRESULT GetPic([in]BSTR SafePath,[in]BSTR StrFormat);
+	//[propget, id(37), helpstring("属性 bMini")] HRESULT bDrump([out, retval] int* pVal);
+	//[propput, id(37), helpstring("属性 bMini")] HRESULT bDrump([in] int newVal);
+	[propget, id(37), helpstring("属性 image")] HRESULT image([out, retval] int* pVal);
+	[propput, id(37), helpstring("属性 image")] HRESULT image([in] int newVal);
+	[propget, id(38), helpstring("属性 adTime")] HRESULT adTime([out, retval] int* pVal);
+	[propput, id(38), helpstring("属性 adTime")] HRESULT adTime([in] int newVal);
+	[propget, id(39), helpstring("属性 speed")] HRESULT speed([out, retval] BSTR* pVal);
+	[propput, id(39), helpstring("属性 speed")] HRESULT speed([in] BSTR newVal);
+};
+
+[
+	uuid(FB0E97B5-1F16-468E-B332-4F3786F61FB5),
+	version(1.0),
+	helpstring("MPlayer 1.0 类型库")
+]
+library MPlayerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(420F66C6-0B80-4F53-AB96-7CA6CA57DB81),
+		helpstring("_IMMPlayerEvents 接口")
+	]
+	dispinterface _IMMPlayerEvents
+	{
+		properties:
+		methods:
+	};
+	[
+		uuid(F3D03D98-E1F1-4F78-A496-E22BE0A4BF83),
+		control,
+		licensed,
+		helpstring("MMPlayer Class")
+	]
+	coclass MMPlayer
+	{
+		[default] interface IMMPlayer;
+		[default, source] dispinterface _IMMPlayerEvents;
+	};
+};

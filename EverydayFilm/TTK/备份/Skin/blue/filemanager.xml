@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,26"  roundcorner="5,5" showdirty="false" >
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <VerticalLayout name="MainContainer" bkcolor="#FFFEFDFC" bordercolor="#FF0C0C0C" bordersize="2">
+    
+    <HorizontalLayout name="caption" maxheight="26" bkimage="file='menu.png' source='0,405,10,431'">
+      <HorizontalLayout name="wndname">
+        <Text name="wndtext" mouse="false" padding="15,5,0,0" text="清理个人文件夹" textcolor="#FFFFFFFF" font="1"/>
+      </HorizontalLayout>
+      <Button name="btnClose" width="34" normalimage="file='menu.png' source='10,405,44,431'" hotimage="file='menu.png' source='44,405,78,431'" pushedimage="file='menu.png' source='78,405,112,431'"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="v1" height="35" padding="0,15,0,0">
+      <Label name="t1" padding="20,0,0,0" height="35" width="60" text="缓存文件"/>
+      <Container name="l1" padding="0,15,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="v2" height="20" padding="0,15,0,0">
+      <Label name="t2" padding="40,0,0,0" height="35" width="300" text="您当前的缓存目录下共用555个文件，大小约为5G"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="v3" height="20" padding="0,15,0,0">
+      <Label name="t2" padding="40,0,0,0" height="35" width="300" text="请打开目录手动删除，或点击“不再提示”取消提醒"/>
+      <Button name="openpath" width="60" text="打开目录" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="v4" minheight="35" bkcolor="#00E5E5E5" bkcolor2="#FFCFCFCF" padding="2,52,2,0" >
+      <Button name="nomore" width="60" text="不再提示" padding="270,5,0,5" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+      <Button name="cancel" width="60" text="关闭" padding="20,5,0,5" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

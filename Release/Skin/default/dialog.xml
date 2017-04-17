@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,26"  roundcorner="5,5" showdirty="false" >
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <VerticalLayout name="MainContainer" bkcolor="#FFFEFDFC" bordercolor="#FF0C0C0C" bordersize="3">
+
+    <HorizontalLayout maxheight="26" bkimage="file='menu.png' source='0,405,10,431'">
+      <HorizontalLayout >
+        <Text mouse="false" padding="15,5,0,0" text="播放器设置" textcolor="#FFFFFFFF" font="1"/>
+      </HorizontalLayout>
+      <Button name="btnClose" width="34" normalimage="file='menu.png' source='10,405,44,431'" hotimage="file='menu.png' source='44,405,78,431'" pushedimage="file='menu.png' source='78,405,112,431'"/>
+    </HorizontalLayout>
+
+
+    <HorizontalLayout >
+      <!--中间部分 选择option 上-->
+
+      <VerticalLayout name="options" padding="1,0,0,0" width="120" bkcolor="#FFDADADA" bordercolor="#FF0C0C0C" bordersize="1">
+        <Option name="normalset" height="36" padding="1,1,1,1" align="center" text="常规设置" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35''" textcolor="#FF000000" font="1" selected="true" group="true"/>
+        <Option name="playset" height="35" padding="1,1,1,1" align="center" text="播放设置" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="imageset" height="35" padding="1,1,1,1" align="center" text="画面设置" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="FileAssociations" height="35" padding="1,1,1,1" align="center" text="文件关联" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="pathset" height="35" padding="1,1,1,1" align="center" text="缓存设置" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="timeauto" height="35" padding="1,1,1,1" align="center" text="计划任务" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35''" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="hot" height="35" padding="1,1,1,1" align="center" text="快捷键" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+        <Option name="aboutus" height="35" padding="1,1,1,1" align="center" text="关于我们" selectedimage="file='menu.png' source='112,405,229,436' dest='0,0,120,35'" textcolor="#FF000000" font="1" group="true"/>
+      </VerticalLayout>
+
+      <HorizontalLayout name="containers" bordercolor="#FF0C0C0C"  padding="-1,0,0,0" bordersize="1">
+        <TabLayout name="switch">
+
+          <VerticalLayout name="set1">
+             <!--常规设置-->
+            <Label padding="20,0,0,0" height="35" text="关闭后"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout height="25">
+              <Option name="minimize" maxwidth="130" group="true" align="left" textpadding="55,0,0,0" text="最小化到托盘" normalimage="file='menu.png' source='0,438,13,451' dest='35,3,48,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='35,3,48,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='35,3,48,16'"/>
+              <Option name="exit" maxwidth="130" group="true" align="left" textpadding="55,0,0,0" text="退出程序" normalimage="file='menu.png' source='0,438,13,451' dest='35,3,48,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='35,3,48,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='35,3,48,16'"/>
+            </HorizontalLayout>
+
+            <Label padding="20,15,0,0" height="35" text="前端显示"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout height="25">
+              <Option name="playtop" maxwidth="115" group="true" align="left" textpadding="55,0,0,0" text="播放时在最前" normalimage="file='menu.png' source='0,438,13,451' dest='35,3,48,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='35,3,48,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='35,3,48,16'"/>
+              <Option name="top" maxwidth="115" group="true" align="left" textpadding="55,0,0,0" text="总在最前" normalimage="file='menu.png' source='0,438,13,451' dest='35,3,48,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='35,3,48,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='35,3,48,16'"/>
+              <Option name="untop" maxwidth="115" group="true" align="left" textpadding="55,0,0,0" text="总不在最前" normalimage="file='menu.png' source='0,438,13,451' dest='35,3,48,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='35,3,48,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='35,3,48,16'"/>
+            </HorizontalLayout>
+
+            <Label padding="20,15,0,0" height="35" text="运行"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <VerticalLayout height="55">
+              <Option name="autorun" align="left" textpadding="55,0,0,0" text="开机自动运行" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+              <Option name="qtacc" align="left" textpadding="55,0,0,0" text="退出时，退出加速程序" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+            </VerticalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout name="set2">
+            <!--播放设置-->
+            <Label padding="20,0,0,0" height="35" text="渲染方式"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout height="25">
+              <Label padding="20,0,0,0" height="35" maxwidth="95" text="选择一个渲染方式"/>
+              <Combo name="cbrender" itemalign="left" width="158" maxwidth="165" textpadding="4,0,0,0" normalimage="file='Combo_nor.png' source='0,28,200,56' corner='2,2,2,4'" hotimage="file='Combo_nor.png' source='0,0,200,28' corner='2,2,2,4'" >
+                <ListLabelElement name="vmr7" text="VMR7 (更好兼容性)" />
+                <ListLabelElement name="vmr9" text="VMR9 (最佳性能)" />
+                <ListLabelElement name="evr" text="EVR (仅支持VISTA/WIN7)" />
+              </Combo>
+              <Label text="(下次播放时生效)"/>
+            </HorizontalLayout>
+
+            <Label padding="20,0,0,0" height="35" text="播放控制"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <VerticalLayout >
+              <Option name="click" align="left" textpadding="55,0,0,0" text="自动缓冲下一集" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+              <Option name="hidepause" align="left" textpadding="55,0,0,0" text="窗口最小化时自动暂停" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+              <Option name="remstation" align="left" textpadding="55,0,0,0" text="记忆上次关闭播放器时文件的播放位置" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+            </VerticalLayout>
+          </VerticalLayout>
+
+
+
+          <VerticalLayout name="set3">
+            <!--画面设置-->
+            <Label padding="20,0,0,0" height="20" text="视频框架设置"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout height="20">
+              <Option name="prim" maxwidth="78" group="true" align="left" textpadding="30,0,0,0" text="原始比例" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+              <Option name="ftot" maxwidth="78" group="true" align="left" textpadding="30,0,0,0" text="4 ： 3" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+              <Option name="stton" maxwidth="78" group="true" align="left" textpadding="30,0,0,0" text="16 ： 9" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+              <Option name="full" maxwidth="78" group="true" align="left" textpadding="30,0,0,0" text="铺满窗口" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+            </HorizontalLayout>
+
+            <Label padding="20,7,0,0" height="13" text="视频色彩设置"/>
+            <Container padding="10,3,20,0"  maxheight="1" bkcolor="#FFDADADA"/>
+
+            <Option name="always" align="left" textpadding="50,0,0,0" text="始终应用此设置" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+            
+            <Label padding="20,10,0,0" height="15" text="亮度"/>
+            <Slider name="sliderbrightness" padding="50,0,20,0" visible="true" height="15" maxwidth="257" thumbimage="file='se.png' source='0,60,11,77'" thumbhotimage="file='se.png' source='0,60,11,77'" thumbpushedimage="file='se.png' source='0,60,11,77'" fgimage="file='se.png' source='60,191,80,198'" fgimage2="file='se.png' source='0,60,11,77'" bkimage="file='se.png' source='0,0,257,15'" thumbsize="10,16" />
+                
+            <Label padding="20,10,0,0" height="15" text="饱和度"/>
+            <Slider name="slidersaturation" padding="50,0,20,0" visible="true" height="19" maxwidth="257" thumbimage="file='se.png' source='0,60,11,77'" thumbhotimage="file='se.png' source='0,60,11,77'" thumbpushedimage="file='se.png' source='0,60,11,77'" fgimage="file='se.png' source='60,191,80,198'" fgimage2="file='se.png' source='0,54,11,71'" bkimage="file='se.png' source='0,15,257,30'" thumbsize="10,16" />
+
+            <Label padding="20,10,0,0" height="15" text="对比度"/>
+            <Slider name="slidercontrast" padding="50,0,20,0" visible="true" height="19" maxwidth="257" thumbimage="file='se.png' source='0,60,11,77'" thumbhotimage="file='se.png' source='0,60,11,77'" thumbpushedimage="file='se.png' source='0,60,11,77'" fgimage="file='se.png' source='60,191,80,198'" fgimage2="file='se.png' source='0,54,11,71'" bkimage="file='se.png' source='0,30,257,45'" thumbsize="10,16" />
+
+            <Label padding="20,10,0,0" height="15" text="色相"/>
+            <Slider name="sliderhue" padding="50,0,20,0" visible="true" height="19" maxwidth="257" thumbimage="file='se.png' source='0,60,11,77'" thumbhotimage="file='se.png' source='0,60,11,77'" thumbpushedimage="file='se.png' source='0,60,11,77'" fgimage="file='se.png' source='60,191,80,198'" fgimage2="file='se.png' source='0,54,11,71'" bkimage="file='se.png' source='0,45,257,60'" thumbsize="10,16" />
+
+            <HorizontalLayout padding="38,20,0,0" height="25" maxheight="25">
+              <Button name="suavity" padding="25,0,0,5" width="60"  text="柔和" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+              <Button name="brightness" padding="25,0,0,5" width="60" text="明亮" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+              <Button name="restore" padding="25,0,0,5" width="60" text="恢复默认" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+
+          <VerticalLayout name="set3_5">
+            <!--文件关联-->
+            <Label padding="20,0,0,0" height="35" text="文件关联"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout height="25">
+              <Label padding="20,0,0,0" height="35" maxwidth="160" text="勾选需要关联的文件后缀名："/>
+              <Option name="alwaysFileAssociations" align="left" textpadding="55,0,0,0" text="总是保持文件关联" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+            </HorizontalLayout>
+
+      
+            <VerticalLayout >
+              <VerticalLayout name="all_Associations"  padding="10,0,10,0" bkcolor="#FFECF4FF" bordercolor="#FFACD0D0" bordersize="1">
+                <HorizontalLayout height="10">
+                </HorizontalLayout>
+                <HorizontalLayout height="25">
+                  <Option name="rm" align="left" textpadding="55,0,0,0" text="*.RM" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="avi" align="left" textpadding="55,0,0,0" text="*.AVI" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="wmv" align="left" textpadding="55,0,0,0" text="*.WMV" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                </HorizontalLayout>
+                <HorizontalLayout height="25">
+                  <Option name="flv" align="left" textpadding="55,0,0,0" text="*.FLV" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="mkv" align="left" textpadding="55,0,0,0" text="*.MKV" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="mp4" align="left" textpadding="55,0,0,0" text="*.MP4" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>              
+                </HorizontalLayout>
+                <HorizontalLayout height="25">
+                  <Option name="3gp" align="left" textpadding="55,0,0,0" text="*.3GP" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="mp3" align="left" textpadding="55,0,0,0" text="*.MP3" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="wma" align="left" textpadding="55,0,0,0" text="*.WMA" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>               
+                </HorizontalLayout>
+                <HorizontalLayout height="25">
+                  <Option name="m4a" align="left" textpadding="55,0,0,0" text="*.M4A" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="aac" align="left" textpadding="55,0,0,0" text="*.AAC" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+                  <Option name="mpg" align="left" textpadding="55,0,0,0" text="*.MPG" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>               
+                </HorizontalLayout>
+              
+              </VerticalLayout>
+                <HorizontalLayout padding="38,20,0,0" height="25" maxheight="25">
+                  <Button name="allFileAssociations" padding="25,0,0,5" width="60"  text="全选" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+                  <Button name="noFileAssociations" padding="25,0,0,5" width="60" text="全不选" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+                  <Button name="defaultFileAssociations" padding="25,0,0,5" width="60" text="默认" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+                </HorizontalLayout>
+              <HorizontalLayout height="50">
+              </HorizontalLayout>
+            </VerticalLayout>
+        </VerticalLayout>
+ 
+          <VerticalLayout name="set4">
+            <!--缓冲设置-->
+            <Label padding="20,0,0,0" height="35" text="节目缓存设置"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <Label padding="40,0,0,0" height="35" text="观看过的节目将存储在此文件夹中"/>
+
+            <HorizontalLayout maxheight="20" minheight="20">
+              <Edit name="pathedit" padding="40,0,0,0" width="250"/>
+              <Button name="change" text="更改目录..." padding="5,0,0,0" width="80" maxwidth="80" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+            </HorizontalLayout>
+
+            <Label padding="40,0,0,0" height="35" text="( 更改目录将在下一次启动后生效 )"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout maxheight="20" minheight="20">
+              <Label align="right" maxwidth="110" text="自动删除小于"/>
+              <Edit name="delfile" tooltip="输入0~99之间的数字" itemalign="center" maxwidth="30" numonly="true" />
+              <Label text="% 的网络任务"/>
+            </HorizontalLayout>
+            <Label text="(0表示不自动删除,重启程序后生效)" textpadding="40,0,0,0"/>
+            
+            <!--缓存管理,写在此处-->
+            <Option name="delstartup" align="left" padding="0,10,0,0" textpadding="52,2,0,0" text="开启提示(缓存目录大小到达设定值时，自动提示)" normalimage="file='menu.png' source='39,438,52,451' dest='35,5,48,18'" selectedimage="file='menu.png' source='52,438,65,451' dest='35,5,48,18'" disabledimage="file='menu.png' source='65,438,78,451' dest='35,5,48,18'"/>
+            <HorizontalLayout name="delset" maxheight="20" minheight="20" padding="0,10,0,0">
+              <Label text="设置缓存最大占用空间为(2-10)" padding="32,0,0,0" width="180"/>
+              <Edit  name="maxedit" padding="0,0,0,0" width="50" numonly="true" />
+              <Label text=" GB" />
+            </HorizontalLayout>
+
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+            <Label padding="40,0,0,0" height="35" text="设置截图路径"/>
+            <HorizontalLayout maxheight="20" minheight="20">
+              <Edit name="pathedit2" padding="40,0,0,0" width="250"/>
+              <Button name="change2" text="浏览" padding="5,0,0,0" width="80" maxwidth="80" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+            </HorizontalLayout>
+            
+          </VerticalLayout>
+
+          <VerticalLayout name="set5">
+            <!--计划任务设置-->
+            <Label padding="20,0,0,0" height="35" text="计划任务"/>
+            <Container padding="10,3,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+
+            <HorizontalLayout name="dset4">
+
+              <VerticalLayout width="160">
+                <Option name="enddown" maxwidth="150" align="left" group="true" padding="20,10,0,0" textpadding="30,0,0,0" text="播完影片自动关机" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+                <Option name="autoshotdown" maxwidth="150" align="left" group="true" padding="20,10,0,0" textpadding="30,0,0,0" text="设置定时关机时间" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+                <Option name="autooff" maxwidth="150" align="left" group="true" padding="20,30,0,0" textpadding="30,0,0,0" text="取消自动关机功能" normalimage="file='menu.png' source='0,438,13,451' dest='15,3,28,16'" selectedimage="file='menu.png' source='13,438,26,451' dest='15,3,28,16'" disabledimage="file='menu.png' source='26,438,39,451' dest='15,3,28,16'"/>
+              </VerticalLayout>
+
+              <VerticalLayout padding="0,30,0,0">
+                <HorizontalLayout maxheight="20" padding="0,10,0,0">
+                  <Combo name="hour" itemalign="center" maxwidth="40" />
+                  <Label maxwidth="20" text="点"/>
+                  <Combo name="minute" itemalign="center" maxwidth="40" />
+                  <Label maxwidth="20" text="分"/>
+                </HorizontalLayout>
+                <Label height="35" text="例如：   19 点  23 分" />
+              </VerticalLayout>
+
+            </HorizontalLayout>
+
+          </VerticalLayout>
+
+
+          <VerticalLayout name="hotkey">
+            <!--快捷键设置-->
+            <HorizontalLayout height="20" padding="0,15,0,0">
+              <Label padding="20,0,0,0" height="35" width="60" text="播放"/>
+              <Container padding="0,15,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,5,0,0">
+              <Label padding="40,0,0,0" height="35" width="60" text="播放/暂停"/>
+              <Edit readonly="true" width="80" text="空格(space)"/>
+              <Label padding="70,0,0,0" height="35" width="30" text="停止"/>
+              <Edit readonly="true" width="80" text="ALT+S"/>
+            </HorizontalLayout>
+            <HorizontalLayout height="20" padding="0,10,0,0">
+              <Label padding="60,0,0,0" height="35" width="40" text="上一个"/>
+              <Edit readonly="true" width="80" text="ALT+LEFT"/>
+              <Label padding="60,0,0,0" height="35" width="40" text="下一个"/>
+              <Edit readonly="true" width="80" text="ALT+RIGHT"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,10,0,0">
+              <Label padding="20,0,0,0" height="35" width="60" text="声音"/>
+              <Container padding="0,15,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,5,0,0">
+              <Label padding="45,0,0,0" height="35" width="55" text="增加音量"/>
+              <Edit readonly="true" width="80" text="ALT+UP"/>
+              <Label padding="45,0,0,0" height="35" width="55" text="减小音量"/>
+              <Edit readonly="true" width="80" text="ALT+DOWN"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,10,0,0">
+              <Label padding="20,0,0,0" height="35" width="60" text="图像"/>
+              <Container padding="0,15,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,5,0,0">
+              <Label padding="45,0,0,0" height="35" width="55" text="迷你模式"/>
+              <Edit readonly="true" width="80" text="SHIFT+ENTER"/>
+              <Label padding="70,0,0,0" height="35" width="30" text="全屏"/>
+              <Edit readonly="true" width="80" text="ALT+ENTER"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,10,0,0">
+              <Label padding="20,0,0,0" height="35" width="60" text="其他"/>
+              <Container padding="0,15,20,0" maxheight="1" bkcolor="#FFDADADA"/>
+            </HorizontalLayout>
+
+            <HorizontalLayout height="20" padding="0,5,0,0">
+              <Label padding="60,0,0,0" height="35" width="40" text="老板键"/>
+              <Edit readonly="true" width="80" text="CTRL+~"/>
+              <Label padding="45,0,0,0" height="35" width="55" text="打开文件"/>
+              <Edit readonly="true" width="80" text="CTRL+O"/>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout name="aboutpage">
+            <!--关于我们-->
+            <HorizontalLayout height="100">
+              <Label padding="40,20,0,0" height="47" width="60" bkimage="file='aboutlogo.png' dest='0,6,60,53'"/>
+              <VerticalLayout >
+                <Label padding="20,35,0,0" text="关于天天看高清影视"/>
+                <Container padding="20,3,20,0" minheight="1" maxheight="1" bkcolor="#FFDADADA"/>
+                <Label padding="20,2,0,0" font="5" text="版本： V2.61 发布日期：2012.01.19"/>
+              </VerticalLayout>
+            </HorizontalLayout>
+
+            <VerticalLayout >
+              <Label padding="40,10,0,0" font="5" text="本程序通过先进的搜索引擎与P2P技术,整合互联网上各"/>
+              <Label padding="40,10,0,0" font="5" text="种优质丰富的音频视频等多媒体资源,为用户提供更方便"/>
+              <Label padding="40,10,0,0" font="5" text="快捷的体验.本程序部分解码器代码来自GNU公共许可协议,"/>
+              <Label padding="40,10,0,0" font="5" text="天天看无需为附加内容承担任何责任"/>
+              <Text name="eee" padding="40,10,0" text="{a http://www.ttkvod.com}http://www.ttkvod.com{/a}" showhtml="true"/>
+            </VerticalLayout>
+
+          </VerticalLayout>
+
+        </TabLayout>
+      </HorizontalLayout>
+
+    </HorizontalLayout>
+    <!--中间部分 选择option 下-->
+
+
+    <HorizontalLayout padding="2,0,3,0" height="35" maxheight="35" bkcolor="#00E5E5E5" bkcolor2="#FFCFCFCF">
+
+      <Button name="sure" padding="350,8,0,5" width="60" text="确认" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+      <Button name="giveup" padding="15,8,0,5" width="60" text="取消" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+
+    </HorizontalLayout>
+    <Label height="3" />
+  </VerticalLayout>
+</Window>

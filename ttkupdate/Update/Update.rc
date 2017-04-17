@@ -1,0 +1,330 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Update.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "Skin\\update.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_UPDATE_DIALOG DIALOGEX 0, 0, 258, 179
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "天天看在线升级"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_INTRODUCTION DIALOGEX 0, 0, 227, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "欢迎使用在线升级",IDC_STATIC_TITLE,8,8,128,12,0,WS_EX_TRANSPARENT
+    LTEXT           "点击下一步将开始查询可用的更新",IDC_STATIC_TITLE2,24,83,140,12,0,WS_EX_TRANSPARENT
+    LTEXT           "本程序可帮助您升级天天网络公司产品",IDC_STATIC_TITLE3,24,30,140,12,0,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "下一步",ID_BTN_NEXT,60,174,59,15
+    PUSHBUTTON      "取消",ID_BTN_CANCEL,127,174,59,15
+END
+
+IDD_DIALOG_CHECK DIALOGEX 0, 0, 194, 204
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+EXSTYLE WS_EX_TRANSPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "欢迎使用在线升级",IDC_STATIC_TITLE,8,8,128,12,0,WS_EX_TRANSPARENT
+    LTEXT           "正在为你检查最新的产品及组件，请稍候",IDC_STATIC_TITLE3,24,30,155,12,0,WS_EX_TRANSPARENT
+    LTEXT           "该过程可能需要几分钟。",IDC_STATIC_TITLE2,24,47,140,12,0,WS_EX_TRANSPARENT
+    CTEXT           "正在连接服务器",IDC_STATIC_SERVER,16,101,140,9,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_PROGRESS_CONNECTION_SERVER,"msctls_progress32",WS_BORDER,14,112,157,8
+    PUSHBUTTON      "取消",ID_BTN_CANCEL,127,174,59,15
+END
+
+IDD_DIALOG_DOWNLOAD DIALOGEX 0, 0, 196, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",ID_BTN_CANCEL,118,174,50,15
+    DEFPUSHBUTTON   "升级",ID_BTN_NEXT,22,174,50,15
+    LISTBOX         IDC_PROGRESS_CONNECTION_SERVER,7,28,182,111,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "下载进度：",IDC_STATIC_SERVER,11,142,42,8,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_PROGRESS_DOWN,"msctls_progress32",WS_BORDER,15,152,157,8
+    DEFPUSHBUTTON   "重试",ID_BTN_TRY_AGAIN,22,174,50,15
+    DEFPUSHBUTTON   "查看升级过程",ID_BTN_LOOK_CAREFULLY,67,28,57,15
+    LTEXT           "",IDC_STATIC_DOWNSHOW,54,142,131,8,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG_MESSAGE DIALOGEX 0, 0, 307, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "安装更新"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "强制关闭",IDOK,22,66,75,14
+    PUSHBUTTON      "退出",ID_BTN_CANCEL,218,66,60,14
+    DEFPUSHBUTTON   "重试",IDOK2,128,66,60,14
+    LTEXT           "您需要关闭正在运行的天天看，才能继续剩下的安装。",IDC_STATIC,40,18,250,8
+    LTEXT           "请关闭天天看后点击“重试”，或点击“主动关闭”强行关闭天天看(可能会",IDC_STATIC,40,34,250,8
+    LTEXT           "因此数据丢失)，点击“退出”将终止本次升级过程。",IDC_STATIC,22,45,266,8
+END
+
+IDD_DIALOG_NEW DIALOGEX 0, 0, 354, 232
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定",ID_BTN_OK,213,178,59,15
+END
+
+IDD_DIALOG_EXITMESSAGE DIALOGEX 0, 0, 229, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "消息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",ID_BTN_OK,113,46,50,14
+    PUSHBUTTON      "取消",ID_BTN_CANCEL,172,46,50,14
+    LTEXT           "你确定要退出本次在线升级吗？",IDC_STATIC,51,25,168,10
+END
+
+IDD_DIALOG_COMPLETE DIALOGEX 0, 0, 250, 196
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "完成",ID_BTN_OK,127,172,59,15
+    LTEXT           "如果想了解天天网络产品的最新动态，请关注：",IDC_STATIC_TITLE4,8,78,192,12,0,WS_EX_TRANSPARENT
+    LTEXT           "欢迎以后继续关注我们的产品更新。",IDC_STATIC_TITLE5,8,117,140,12,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG_DOWNLOAD_FAIL DIALOGEX 0, 0, 242, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定",ID_BTN_OK,127,174,59,15
+    LTEXT           "登录天天看网站，下载最新版安装包",IDC_STATIC_TITLE4,8,78,192,12,0,WS_EX_TRANSPARENT
+    LTEXT           "谢谢您对我们的支持。",IDC_STATIC_TITLE5,8,117,140,12,0,WS_EX_TRANSPARENT
+    LTEXT           "点击进入下载：",IDC_STATIC_TITLE6,9,96,56,10,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,2
+ PRODUCTVERSION 2,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "天天看"
+            VALUE "FileDescription", "在线升级程序"
+            VALUE "FileVersion", "2.0.0.2"
+            VALUE "InternalName", "ttkupdate.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "LegalTrademarks", "http://www.ttkvod.com"
+            VALUE "OriginalFilename", "ttkupdate.exe"
+            VALUE "ProductName", "ttkupdate 2.0"
+            VALUE "ProductVersion", "2.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_UPDATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_DIALOG_INTRODUCTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_DIALOG_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_DIALOG_DOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_DIALOG_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_DIALOG_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 225
+    END
+
+    IDD_DIALOG_EXITMESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_DIALOG_COMPLETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_DIALOG_DOWNLOAD_FAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BK           BITMAP                  "Skin\\left.bmp"
+IDB_BITMAP_NEW          BITMAP                  "Skin\\newUpdate.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Update.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

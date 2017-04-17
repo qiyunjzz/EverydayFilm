@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="990,660" sizebox="4,4,6,6" caption="0,0,0,38" mininfo="895,500" roundcorner="5,5" showdirty="false" >
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Font name="宋体" size="22" bold="true" italic="true"/>
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.png' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.png' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.png' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.png' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.png' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.png' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.png' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.png' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.png' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.png' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.png' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.png' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.png' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.png' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.png' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.png' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.png' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.png' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.png' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.png' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.png' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.png' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.png' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.png' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.png' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.png' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.png' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.png' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.png' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.png' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.png' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.png' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.png' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.png' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.png' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.png' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.png' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.png' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.png' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Image name="tree_expand.png" />
+  <Image name="playing.png" />
+  <Container name="MainContainer">
+    <!--菜单-->
+    <Menu name="playmenu" itemtextpadding="30,0,0,0" menuwidth="165" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel text="播放" labelid="128" />
+      <MenuListLabel text="停止" labelid="129" />
+      <MenuListLabel text="上一个" labelid="130" />
+      <MenuListLabel text="下一个" labelid="131" />
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel text="在最前" nextmenu="totop" />
+      <MenuListLabel text="全屏" labelid="132" />
+      <MenuListLabel text="默认模式" labelid="167"/>
+      <MenuListLabel text="精简模式" labelid="168"/>
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel text="画面设置" nextmenu="playwindowout"/>
+      <MenuListLabel text="截屏设置" nextmenu="cutscreen"/>
+      <MenuListLabel text="声音设置" nextmenu="soundset"/>
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel text="播放列表" labelid="170" />
+      <MenuListLabel text="播放设置" labelid="169" />
+    </Menu>
+
+    <Menu name="totop" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'" >
+      <MenuListLabel text="播放时在最前" labelid="134"/>
+      <MenuListLabel text="永不在最前" labelid="171"/>
+      <MenuListLabel text="总在最前" labelid="172"/>
+    </Menu>
+
+    <Menu name="playwindowout" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8' dest='-5,-5,165,113'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'" >
+      <MenuListLabel text="视频原始比例" labelid="137"/>
+      <MenuListLabel text="拉伸铺满窗口" labelid="138"/>
+      <MenuListLabel text="窗口比例4:3" labelid="139"/>
+      <MenuListLabel text="窗口比例16:9" labelid="140"/>
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel text="0.5倍尺寸" labelid="302"/>
+      <MenuListLabel text="1倍尺寸" labelid="303"/>
+      <MenuListLabel text="2倍尺寸" labelid="305"/>
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel text="色彩亮度调节" labelid="145" />
+    </Menu>
+
+    <Menu name="cutscreen" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8' dest='-5,-5,165,113'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'" >
+      <MenuListLabel text="截屏" labelid="306" ftimage="file='menu.png' source='185,300,200,315' dest='3,3,18,18'"/>
+      <MenuListLabel text="打开保存文件夹" labelid="314"/>
+      <MenuListLabel text="截屏设置" labelid="315"/>
+    </Menu>
+
+    <Menu name="soundset" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel text="左声道" labelid="174"/>
+      <MenuListLabel text="右声道" labelid="175"/>
+      <MenuListLabel text="立体声" labelid="176"/>
+      <MenuListLabel text="增加音量" labelid="177"/>
+      <MenuListLabel text="减少音量" labelid="178"/>
+      <MenuListLabel text="静音" labelid="179"/>
+    </Menu>
+
+    <Menu name="listmenu" itemtextpadding="30,0,0,0" menuwidth="150" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="109" text="播放" />
+      <MenuListLabel labelid="110" text="连接" />
+      <MenuListLabel labelid="112" text="全部连接" />
+      <MenuListLabel labelid="113" text="全部断开" />
+      <Container maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel labelid="114" text="删除任务" />
+      <MenuListLabel labelid="115" text="打开文件位置" />
+      <Container maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel labelid="165" text="播放模式" nextmenu="playset"/>
+      <MenuListLabel labelid="166" text="清空播放列表" />
+      <MenuListLabel labelid="152" text="设置自动关机" />
+    </Menu>
+    
+    <Menu name="delson" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="180" text="删除任务和文件" />
+      <MenuListLabel labelid="181" text="只删除任务" />
+    </Menu>
+    
+    <Menu name="playset" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="116" text="单个播放"/>
+      <MenuListLabel labelid="117" text="单个循环"/>
+      <MenuListLabel labelid="118" text="顺序播放"/>
+      <MenuListLabel labelid="119" text="列表循环"/>
+    </Menu>
+    
+    <Menu name="mainmenu" itemtextpadding="30,0,0,0" menuwidth="150" menucorner="3,3" itemfont="7" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="106" text="打开文件" ftimage="file='menu.png' source='170,300,185,315' dest='3,3,18,18'"/>
+      <MenuListLabel labelid="107" text="打开URL" />
+      <MenuListLabel labelid="152" text="定时关机" />
+      <MenuListLabel labelid="108" text="设置选项" />
+      <MenuListLabel labelid="153" text="网络限速"  nextmenu="speedlimit"/>
+      <MenuListLabel labelid="203" text="在线升级"/>
+      <MenuListLabel labelid="121" text="关于"  nextmenu="nextus"/>
+      <Container  maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container  maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel labelid="122" text="退出" ftimage="file='menu.png' source='0,452,15,467' dest='3,3,18,18'"/>
+    </Menu>
+
+    <Menu name="nextus" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="7" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="187" text="打开官网" />
+      <MenuListLabel labelid="121" text="关于我们" />
+    </Menu>
+
+    <Menu name="speedlimit" itemtextpadding="30,0,0,0" menucorner="3,3" itemfont="7" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="155" text="无限制"/>
+      <MenuListLabel labelid="156" text="限速 90%"/>
+      <MenuListLabel labelid="157" text="限速 80%"/>
+      <MenuListLabel labelid="158" text="限速 70%"/>
+      <MenuListLabel labelid="159" text="限速 60%"/>
+      <MenuListLabel labelid="160" text="限速 50%"/>
+      <MenuListLabel labelid="161" text="限速 40%"/>
+      <MenuListLabel labelid="162" text="限速 30%"/>
+      <MenuListLabel labelid="163" text="限速 20%"/>
+      <MenuListLabel labelid="164" text="限速 10%"/>
+    </Menu>
+    
+    <Menu name="iemenu" itemtextpadding="30,0,0,0" menucorner="3,3" menuwidth="125" itemfont="7" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itemcheckimage="file='menu.png' source='155,560,164,568'" itemnextimage="file='menu.png' source='150,560,155,569'" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="100" text="后退" ftimage="file='menu.png' source='0,300,15,315' dest='3,3,18,18'"/>
+      <MenuListLabel labelid="101" text="前进" ftimage="file='menu.png' source='15,300,30,315' dest='3,3,18,18'"/>
+      <MenuListLabel labelid="102" text="刷新" ftimage="file='menu.png' source='30,300,45,315' dest='3,3,18,18'"/>
+      <MenuListLabel labelid="103" text="复制" hotimage="file='menu.png' source='60,300,170,322' dest='3,3,18,18'"/>
+      <MenuListLabel labelid="104" text="粘贴" hotimage="file='menu.png' source='60,300,170,322' dest='3,3,18,18'"/>
+      <Container maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel labelid="105" text="片库首页" ftimage="file='menu.png' source='45,300,60,315' dest='3,3,18,18'"/>
+    </Menu>
+
+    <Menu name="tray" itemtextpadding="30,0,0,0" menuwidth="120" menucorner="3,3" itemfont="2" width="19" maxwidth="19" itemhottextcolor="#FFFFFFFF" itembkimage="file='menu_bk.png' corner='40,8,8,8'" itemhotimage="file='menu.png' source='0,560,150,582' corner='2,2,24,2'">
+      <MenuListLabel labelid="182" text="打开主界面"/>
+      <MenuListLabel labelid="183" text="设置..."/>
+      <MenuListLabel labelid="184" text="打开主页"/>
+      <MenuListLabel labelid="185" text="关于"/>
+      <Container maxheight="1" height="1" padding="28,1,4,0" bkcolor="0xFFBCBFC4"/>
+      <Container maxheight="1" height="1" padding="28,0,4,0" />
+      <MenuListLabel labelid="186" text="退出" ftimage="file='menu.png' source='0,452,15,467' dest='3,3,18,18'"/>
+    </Menu> 
+    <!--菜单-->
+    
+    <!--主要容器-->
+    <VerticalLayout name="main" bkcolor="#FF232323" bordercolor="#FF0C0C0C" bordersize="1" >
+
+      <!--title caption-->
+      <HorizontalLayout name="title" height="38" bkimage="file='bg.png' source='0,0,996,36'">
+        <HorizontalLayout name="logo" width="95">
+          <Container name="logopic" width="95" height="32" bkimage="file='logo.png' source='0,0,87,25' dest='6,4,93,29' "/>
+          <!--<Text name="softname" mouse="false" text="天天看" pos="39, 13, 89, 26" float="true" textcolor="#FFFFFFFF" font="1" />-->
+        </HorizontalLayout>
+        <HorizontalLayout name="switchctrl">
+          <Option name="homebtn" maxwidth="100" maxheight="38" normalimage="file='button.png' source='300,0,400,38'" hotimage="file='button.png' source='200,0,300,38'" pushedimage="file='button.png' source='100,0,200,38'" selectedimage="file='button.png' source='0,0,100,38'" textcolor="#FFFFFFFF" font="1" selected="true" group="true"/>
+          <Option name="Applybtn" maxwidth="100" maxheight="38" normalimage="file='button.png' source='300,38,400,76'" hotimage="file='button.png' source='200,38,300,76'" pushedimage="file='button.png' source='100,38,200,76'" selectedimage="file='button.png' source='0,38,100,76'" selectedtextcolor="#FF386382" font="1" group="true"/>
+          <Option name="playerbtn" maxwidth="100" maxheight="38" normalimage="file='button.png' source='300,76,400,114'" hotimage="file='button.png' source='200,76,300,114'" pushedimage="file='button.png' source='100,76,200,114'" selectedimage="file='button.png' source='0,76,100,114'" selectedtextcolor="#FF386382" font="1" group="true"/>
+        </HorizontalLayout>
+        <HorizontalLayout name="titlebuttons" width="212" inset="60,8,0,0">
+          <Button name="simple" maxwidth="24" maxheight="23" tooltip="精简模式" normalimage="file='title.png' source='0,240,24,263'" hotimage="file='title.png' source='25,240,49,263'" pushedimage="file='title.png' source='50,240,74,263'"/>
+          <Button name="changeskin" maxwidth="24" maxheight="23" tooltip="更改皮肤" normalimage="file='title.png' source='0,115,24,138'" hotimage="file='title.png' source='25,115,49,138'" pushedimage="file='title.png' source='50,115,74,138'"/>
+          <Button name="munubtn" maxwidth="24" maxheight="23" tooltip="菜单" normalimage="file='title.png' source='0,140,24,163'" hotimage="file='title.png' source='25,140,49,163'" pushedimage="file='title.png' source='50,140,74,163'"/>
+          <Button name="minbtn" maxwidth="24" maxheight="23" tooltip="最小化" normalimage="file='title.png' source='0,65,24,88'" hotimage="file='title.png' source='25,65,49,88'" pushedimage="file='title.png' source='50,65,74,88'"/>
+          <Button name="maxbtn" maxwidth="24" maxheight="23" tooltip="最大化" normalimage="file='title.png' source='0,90,24,113'" hotimage="file='title.png' source='25,90,49,113'" pushedimage="file='title.png' source='50,90,74,113'"/>
+          <Button name="restorebtn" maxwidth="24" maxheight="23" tooltip="还原" normalimage="file='title.png' source='0,165,24,188'" hotimage="file='title.png' source='25,165,49,188'" pushedimage="file='title.png' source='50,165,74,188'" visible="false"/>
+          <Button name="closebtn" maxwidth="24" maxheight="23" tooltip="关闭" normalimage="file='title.png' source='0,0,24,23'" hotimage="file='title.png' source='25,0,49,23'" pushedimage="file='title.png' source='50,0,74,23'"/>
+        </HorizontalLayout>
+      </HorizontalLayout>
+      <!--title caption-->
+
+      <!--title caption mini-->
+      <HorizontalLayout visible="false" name="minititle" height="26" bkimage="file='menu.png' source='0,405,10,431'" >
+        <HorizontalLayout >
+          <Label text="天天看高清影视-精简模式" textpadding="10,0,0,0" textcolor="#FFFFFFFF"/>
+        </HorizontalLayout>
+        <HorizontalLayout width="112">
+          <Button name="top" maxwidth="26" maxheight="26" tooltip="置顶" normalimage="file='menu.png' source='156,528,182,554'" hotimage="file='menu.png' source='182,528,208,554'"/>
+          <Button name="notop" maxwidth="26" maxheight="26" tooltip="取消置顶" visible="false" normalimage="file='menu.png' source='208,528,234,554'" hotimage="file='menu.png' source='234,528,260,554'"/>
+          <Button name="return" maxwidth="26" maxheight="26" tooltip="还原" normalimage="file='menu.png' source='78,528,104,554'" hotimage="file='menu.png' source='104,528,130,554'" pushedimage="file='menu.png' source='130,528,156,554'"/>
+          <Button name="min" maxwidth="26" maxheight="26" tooltip="最小化" normalimage="file='menu.png' source='0,528,26,554'" hotimage="file='menu.png' source='26,528,52,554'" pushedimage="file='menu.png' source='52,528,78,554'"/>
+          <Button name="close" maxwidth="34" maxheight="26" tooltip="关闭" normalimage="file='menu.png' source='10,405,44,431'" hotimage="file='menu.png' source='44,405,78,431'" pushedimage="file='menu.png' source='78,405,112,431'"/>
+          </HorizontalLayout>
+        </HorizontalLayout>
+      <!--title caption mini-->
+
+      <HorizontalLayout name="client" bkcolor="#FF232323" bordercolor="#FF2B2B2B" bordersize="1" inset="2,0,2,2">
+        <TabLayout name="switch">
+          <HorizontalLayout name="home">
+            <ActiveX name="bhome" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" />
+          </HorizontalLayout>
+          <HorizontalLayout name="Apply">
+            <ActiveX name="bApply" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" />
+          </HorizontalLayout>
+          
+          <VerticalLayout name="player">
+            <HorizontalLayout name="playertop">
+
+              <VerticalLayout name="ctrlslider">
+                <ActiveX name="bplayer" clsid="{F3D03D98-E1F1-4F78-A496-E22BE0A4BF83}" />
+                <!--<Slider name="slider" bordersize="0" height="8" thumbimage="file='menu.png' source='40,190,60,198'" thumbhotimage="file='menu.png' source='0,190,20,198'" thumbpushedimage="file='menu.png' source='20,190,40,198'" fgimage="file='menu.png' source='60,190,80,198'" fgimage2="file='menu.png' source='80,190,100,198'" thumbsize="20,8" bkimage="file='menu.png' source='100,190,120,198'"/>-->
+              </VerticalLayout>
+
+              <VerticalLayout name="listctner" width="215" inset="1,0,1,0" bordercolor="#FF0C0C0C" bordersize="1" >
+                <HorizontalLayout name="listhead" height="30" bkcolor="#FF212121" bkcolor2="#FF161616">
+                  <Button name="lheadtxt" minwidth="100" bkimage="file='menu.png' source='0,112,28,140' dest='0,0,28,28'" padding="20,2,0,2" align="center" textpadding="20,0,0,0" text="播放列表" textcolor="#FFFFFFFF" font="3"/>
+                  <Button name="cleanall" tooltip="清空列表" maxwidth="28" minwidth="28" padding="50,0,0,0" normalimage="file='menu.png' source='0,140,28,168'" hotimage="file='menu.png' source='28,140,56,168'" pushedimage="file='menu.png' source='56,140,84,168'"/>
+                </HorizontalLayout>
+                <HorizontalLayout name="lstfter">
+                  <VerticalLayout name="hidelist" maxwidth="10" bkcolor="#FF171A1D">
+                    <HorizontalLayout name="nouse1"/>
+                    <HorizontalLayout name="btnctner" padding="0,60,0,0" maxheight="58">
+                      <Button name="hdlstbtn" normalimage="file='menu.png' source='0,330,10,388'" hotimage="file='menu.png' source='10,330,20,388'" pushedimage="file='menu.png' source='20,330,30,388'"/>
+                      <Button name="shlstbtn" visible="false" normalimage="file='menu.png' source='30,330,40,388'" hotimage="file='menu.png' source='40,330,50,388'" pushedimage="file='menu.png' source='50,330,60,388'"/>
+                    </HorizontalLayout>
+                    <HorizontalLayout name="nouse3"/>
+                  </VerticalLayout>
+                  <Mylist name="Mylist" header="hidden" bkcolor="#FF171A1D" multiselect="true" itemshowhtml="true" vscrollbar="true" itemtextcolor="#FFFFFFFF" itemhottextcolor="#FFA1A1A1" itemselectedtextcolor="#FFA9CBFE" itemhotimage="file='itembk.png' source='202,-1,404,26'" itemselectedimage="file='itembk.png' source='0,-1,202,26'" itemselectedbkcolor="0" itemhotbkcolor="0">
+                  </Mylist>
+                </HorizontalLayout>
+              </VerticalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+        </TabLayout>
+      </HorizontalLayout>
+      <!--控件加拖动和列表-->
+      <VerticalLayout name="controlbar" height="42">
+        <Slider name="slider" visible="false" height="7" thumbimage="file='menu.png' source='40,191,60,198'" thumbhotimage="file='menu.png' source='0,191,20,198'" thumbpushedimage="file='menu.png' source='20,191,40,198'" fgimage="file='menu.png' source='60,191,80,198'" fgimage2="file='menu.png' source='80,191,100,198'" thumbsize="20,7" bkimage="file='menu.png' source='100,194,120,196'"/>
+        <HorizontalLayout name="playerbottom" height="42" bkimage="file='bg.png' source='0,36,996,78'">
+          <HorizontalLayout name="controls" minwidth="300" maxwidth="300">
+            <Button name="pause" tooltip="暂停" visible="false" width="70" normalimage="file='menu.png' source='70,200,140,242'" hotimage="file='menu.png' source='140,200,210,242'" pushedimage="file='menu.png' source='0,200,70,242'" disabledimage="file='menu.png' source='210,200,280,242'"/>
+            <Button name="run" tooltip="播放" width="70" normalimage="file='menu.png' source='70,242,140,284'" hotimage="file='menu.png' source='140,242,210,284'" pushedimage="file='menu.png' source='0,242,70,284'" disabledimage="file='menu.png' source='210,242,280,284'"/>
+            <Button name="stop" tooltip="停止" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='28,56,56,84'" hotimage="file='menu.png' source='56,56,84,84'" pushedimage="file='menu.png' source='84,56,112,84'" disabledimage="file='menu.png' source='0,56,28,84'"/>
+            <Button name="left" tooltip="上一个" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='28,0,56,28'" hotimage="file='menu.png' source='56,0,84,28'" pushedimage="file='menu.png' source='84,0,112,28'" disabledimage="file='menu.png' source='0,0,28,28'"/>
+            <Button name="right" tooltip="下一个" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='28,28,56,56'" hotimage="file='menu.png' source='56,28,84,56'" pushedimage="file='menu.png' source='84,28,112,56'" disabledimage="file='menu.png' source='0,28,28,56'"/>
+            <Button name="sound" tooltip="关闭声音" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='0,84,28,112'" hotimage="file='menu.png' source='28,84,56,112'" pushedimage="file='menu.png' source='56,84,84,112'" disabledimage="file='menu.png' source='140,140,168,168'"/>
+            <Button name="mute" tooltip="打开声音" padding="2,6,0,0" visible="false" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='84,84,112,112'" hotimage="file='menu.png' source='112,84,140,112'" pushedimage="file='menu.png' source='140,84,168,112'" disabledimage="file='menu.png' source='140,140,168,168'"/>
+            <Slider name="soundbar" tooltip="调整音量" padding="2,15,0,0" maxwidth="70" maxheight="9" thumbimage="file='menu.png' source='18,180,27,189'" thumbhotimage="file='menu.png' source='0,180,9,190'" thumbpushedimage="file='menu.png' source='9,180,18,190'" fgimage="file='menu.png' source='42,181,57,190'" bkimage="file='menu.png' source='27,181,42,190'"/>
+          </HorizontalLayout>
+          <HorizontalLayout name="rate" width="50">
+            <Text name="speed" padding="0,13,0,0" mouse="false" textcolor="#FFFFFFFF"/>
+          </HorizontalLayout>
+          <HorizontalLayout name="adctn">
+            <Text name="ad" padding="30,13,0,0" maxheight="20" showhtml="true" />
+          </HorizontalLayout>
+          <HorizontalLayout name="status" width="120">
+            <Text name="timeandstatus" padding="0,13,0,0" mouse="false" textcolor="#FFFFFFFF"/>
+          </HorizontalLayout>
+          <HorizontalLayout name="controls2" width="100">
+            <Button name="openfile" tooltip="打开文件" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='168,112,196,140'" hotimage="file='menu.png' source='196,112,224,140'" pushedimage="file='menu.png' source='224,112,252,140'"/>
+            <Button name="fullscreen" tooltip="全屏" enabled="false" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='252,112,280,140'" hotimage="file='menu.png' source='280,112,308,140'" pushedimage="file='menu.png' source='308,112,336,140'" disabledimage="file='menu.png' source='112,140,140,168'"/>
+            <Button name="lstbtn" tooltip="打开列表" visible="false" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='0,112,28,140'" hotimage="file='menu.png' source='28,112,56,140'" pushedimage="file='menu.png' source='56,112,84,140'"/>
+            <Button name="lstbtn2" tooltip="收起列表" padding="2,6,0,0" maxheight="28" maxwidth="28" normalimage="file='menu.png' source='84,112,112,140'" hotimage="file='menu.png' source='112,112,140,140'" pushedimage="file='menu.png' source='140,112,168,140'"/>
+          </HorizontalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <!--控制条-->
+    </VerticalLayout>
+  </Container>
+</Window>

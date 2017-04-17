@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilmEveryday", "EverydayFilm\TTK\FilmEveryday.vcproj", "{5E633570-D2FB-45A7-8E65-CEEBCB3B89CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Apply", "Apply\Apply\Apply.vcproj", "{A8227DD3-6205-4C6C-9E7D-3AB506CBC3F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ttkupdate", "ttkupdate\Update\Update.vcproj", "{6526A8BC-2BE4-4269-A979-D087EA4F71EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E633570-D2FB-45A7-8E65-CEEBCB3B89CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E633570-D2FB-45A7-8E65-CEEBCB3B89CE}.Debug|Win32.Build.0 = Debug|Win32
+		{5E633570-D2FB-45A7-8E65-CEEBCB3B89CE}.Release|Win32.ActiveCfg = Release|Win32
+		{5E633570-D2FB-45A7-8E65-CEEBCB3B89CE}.Release|Win32.Build.0 = Release|Win32
+		{A8227DD3-6205-4C6C-9E7D-3AB506CBC3F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8227DD3-6205-4C6C-9E7D-3AB506CBC3F3}.Debug|Win32.Build.0 = Debug|Win32
+		{A8227DD3-6205-4C6C-9E7D-3AB506CBC3F3}.Release|Win32.ActiveCfg = Release|Win32
+		{A8227DD3-6205-4C6C-9E7D-3AB506CBC3F3}.Release|Win32.Build.0 = Release|Win32
+		{6526A8BC-2BE4-4269-A979-D087EA4F71EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6526A8BC-2BE4-4269-A979-D087EA4F71EB}.Debug|Win32.Build.0 = Debug|Win32
+		{6526A8BC-2BE4-4269-A979-D087EA4F71EB}.Release|Win32.ActiveCfg = Release|Win32
+		{6526A8BC-2BE4-4269-A979-D087EA4F71EB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

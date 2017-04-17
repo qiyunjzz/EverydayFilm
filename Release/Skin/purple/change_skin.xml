@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="235,125" roundcorner="3,3" >
+	<VerticalLayout bkcolor="#FF3F4349" bkcolor2="#FFC6E0F1" bordercolor="#FF768D9B" bordersize="1">
+    <!--<Label name="aaa" padding="80,0,0,0" font="5" text="更换皮肤"/>-->
+    <HorizontalLayout name="set_skin">
+      <Option name="black" pos="10, 20, 75, 82" float="true" align="bottom" text="默认" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='skimg.png' source='160,0,240,45' dest='10,5,55,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" selected="true" group="true"/>
+      <Option name="purple" pos="85, 20, 150, 82" float="true" align="bottom" text="紫彩" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='skimg.png' source='80,0,160,45' dest='10,5,55,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="true"/>
+      <Option name="blue" pos="160, 20, 225, 82" float="true" align="bottom" text="蓝彩" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='skimg.png' source='0,0,80,45' dest='10,5,55,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="true"/>
+    </HorizontalLayout>
+    <Option name="alway_skin" align="left" textpadding="25,0,0,0" text="始终显示当前状态皮肤" normalimage="file='menu.png' source='39,438,52,451' dest='10,3,23,16'" selectedimage="file='menu.png' source='52,438,65,451' dest='10,3,23,16'" disabledimage="file='menu.png' source='65,438,78,451' dest='10,3,23,16'"/>
+    <HorizontalLayout height="8">
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

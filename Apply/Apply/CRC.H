@@ -1,0 +1,21 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+//
+// CRC.cpp
+//
+// 作者: Sage Baal
+//
+// 修改日期: 2007-6-29
+//
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifndef _CRC_H_
+#define _CRC_H_
+
+#include <windows.h>
+
+void	InitCRC(); // Builds Lookup table array
+ULONG	Reflect(ULONG ref, char ch); // Reflects CRC bits in the lookup table
+ULONG	CRC(char* pData, DWORD dwSize); // Creates a CRC from a string buffer
+
+#endif

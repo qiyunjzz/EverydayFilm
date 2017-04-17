@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,26"  roundcorner="5,5" showdirty="false" >
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <VerticalLayout name="MainContainer" bkcolor="#FFEEEEEF" bordercolor="#FF0C0C0C" bordersize="2">
+    
+    <HorizontalLayout name="caption" maxheight="26" bkimage="file='menu.png' source='0,405,10,431'">
+      <HorizontalLayout name="wndname">
+        <Text name="wndtext" mouse="false" padding="15,5,0,0" text="自动关机程序" textcolor="#FFFFFFFF" font="1"/>
+      </HorizontalLayout>
+      <Button name="btnClose" tooltip="隐藏窗口" width="34" normalimage="file='menu.png' source='10,405,44,431'" hotimage="file='menu.png' source='44,405,78,431'" pushedimage="file='menu.png' source='78,405,112,431'"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="maintxt" padding="20,40,0,0">
+      <Label name="pic" width="35" height="35" bkimage="file='menu.png' source='120,0,155,35'" />
+      <Label name="l" padding="15,0,0,0" textcolor="#FF000000" width="155" text="您选择了自动关机，系统将在" />
+      <Label name="time" width="17" textcolor="#FFFF0000" />
+      <Label name="r" padding="1,0,0,0" textcolor="#FF000000" text=" 秒后关机!"/>
+    </HorizontalLayout>
+
+    <HorizontalLayout name="btns" minheight="35" padding="2,18,2,0" >
+      <Button name="rn" width="60" text="立即关机" padding="190,5,0,5" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+      <Button name="cancel" width="60" text="取消关机" padding="20,5,0,5" normalimage="normal.png" hotimage="hover.png" pushedimage="pushed.png"/>
+    </HorizontalLayout>
+    
+  </VerticalLayout>
+</Window>
